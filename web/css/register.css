@@ -1,0 +1,136 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	text-decoration: none;
+	list-style: none;
+	font-size: 12px;
+}
+a:hover{
+	color: red;
+}
+body{
+	width: 100%;
+}
+.hand{
+	width: 100%;
+	height: 80px;
+	
+	box-shadow: 1px 1px 2px gray;
+}
+.ul-left{
+	float: left;
+}
+.ul-left img{
+	width: 80px;
+	height: 80px;
+	position: relative;
+	left: 105px;
+}
+.ul-right{
+	float: right;
+	position: relative;
+	left: -100px;
+	top: 12px;
+}
+.ul-right li{
+	float: left;
+	margin-left: 20px;
+}
+.ul-right a{
+	color: #0066CC;
+}
+/* 中间部位 */
+.main{
+	width: 100%;
+	height: 380px;
+	border: 1px solid #fff;
+	padding-top: 75px;
+}
+.main-center_left{
+	width: 48%;
+	
+	height: 100%;
+	float: left;
+	
+	
+}
+.main-center_left img{
+	float: left;
+    /* text-align: center; */
+    position: relative;
+    top: -22px;
+    left: 93px;
+	
+}
+.main-center_right{
+	width: 48%;
+	
+	height: 100%;
+	float: right;
+}
+.main-center_right 
+.right-main{
+	width: 45%;
+	height: 400px;
+	
+	margin: 0px auto;
+}
+.right-main li:nth-child(1){
+	font-size: 14px;
+	color: #AFADA8;
+	font-weight: bold;
+	float: left;
+}
+.right-main li:nth-child(2){
+	font-size: 12px;
+	color: #0066CC;
+	float: right;
+}
+.right-main li:nth-child(3)>input{
+	width: 100%;
+	height: 36px;	
+	border: 1px solid gray;
+padding-left: 41px;
+}
+.right-main li:nth-child(4)>input{
+	width: 100%;
+	height: 36px;
+	border: 1px solid gray;
+	padding-left: 41px;
+}
+.right-main li:nth-child(5){
+	float: left;
+}
+.right-main li:nth-child(6){
+	float:right;
+	color: red;
+	font-size: 12px;
+	position: relative;
+    left: 42px;
+}
+.right-main li:nth-child(6)>a{
+	float: right;
+	color: gray;
+	font-size: 12px;
+}
+.right-main li:nth-child(7)>input{
+	width: 326px;
+	height: 36px;
+	background-color: #FF3C3C;
+	border: 0px solid #FF3C3C;
+	font-size: 18px;
+	color: #fff;
+}
+.right-main li{
+	line-height: 45px;
+}
+.right-main li:nth-child(8)>a{
+	font-size: 12px;
+	color: #666666;
+}
+.right-main li:nth-child(10){
+	float: right;
+	position: relative;
+	top:-52px;
+	left: 44px;
+}
